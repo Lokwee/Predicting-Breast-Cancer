@@ -1,6 +1,6 @@
 # Predicting-Breast-Cancer
 
-In this project, I use the Wisconsin Breast Cancer Diagnostic dataset available on kaggle.com and https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29. 
+In this project, I use the Wisconsin Breast Cancer Diagnostic dataset available on kaggle.com (https://www.kaggle.com/uciml/breast-cancer-wisconsin-data) and https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29. 
 Breast lumps are either classified as benign or malignant where malignant is the cancerous form. This project creates a model that could be used to classify cell lumps as benign or malignant hence diagnose breast cancer. 
 Using correlation, I find that perimeter, radius, area, compactness, concavity, and concave points are the most highly correlated with diagnosis (All showing a correlation of higher than 0.5). Using these features, I split the data into a training and testing set and use this to build Logistic regression, K-Nearest Neighbors, Support Vector Machines, Decision Tree, Random Forest, and Gaussian Naive Bayes models. 
 After checking for accuracy, Random Forest proves to be the most accurate model at 93% accuracy. 
